@@ -1,0 +1,51 @@
+main {
+    width: 30em;
+    font-size: 16pt;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+h1 {
+    color:rgb(100%, 0%, 100%);
+    color:rgb(28, 182, 22);
+}
+
+p, ul, ol {
+    background-color: whitesmoke;
+}
+
+strong {
+    color:red;
+    font-weight: normal;
+}
+
+nav {
+    float: right;
+    margin-right: 20%;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    list-style: none;
+}
+
+nav li a {
+    color: brown;
+    text-decoration: none;
+    display: block;
+    padding: 1ex;
+    margin-top:0.4ex;
+    border: green solid 4px;
+    border-radius: 2ex 2px 2em 2mm;
+}
+nav li a:hover {
+    color: white;
+    background-color: green;
+}
+
+p:hover {
+    color:coral;
+}
